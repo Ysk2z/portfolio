@@ -211,6 +211,54 @@ p{
   font-weight: 700;
   color: var(--primary-color);
 }
+/* =====================================================
+   CONTACT – FORMULAIRE DE CONTACT
+   ===================================================== */
+.contact {
+  padding: 80px 20px;
+  background: linear-gradient(135deg, #f6fefe, #ffffff);
+  text-align: center;
+}
+
+/* Texte contact */
+.contact-text {
+  font-size: 1.1rem;
+  margin-bottom: 40px;
+}
+
+/* Formulaire */
+.contact-form {
+  max-width: 500px;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+/* Champs du formulaire */
+.contact-form input,
+.contact-form textarea {
+  padding: 15px;
+  font-family: 'Inter', sans-serif;
+  font-size: 1rem;
+  border-radius: 10px;
+  border: 2px solid #ddd;
+  transition: all 0.3s ease;
+}
+
+/* Focus sur les champs */
+.contact-form input:focus,
+.contact-form textarea:focus {
+  border-color: var(--primary-color);
+  outline: none;
+  box-shadow: 0 0 0 3px rgba(20, 220, 214, 0.2);
+}
+
+/* Zone message */
+.contact-form textarea {
+  resize: none;
+  height: 150px;
+}
 
 
 /* =====================================================
