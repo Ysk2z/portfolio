@@ -23,7 +23,10 @@ body {
    TITRES – TYPOGRAPHIE FORTE ET ATTRACTIVE
    ===================================================== */
 h1, h2, h3 {
-  font-family: 'Poppins', sans-serif;
+  font-family: "Orbitron", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
   font-weight: 800;
   color: var(--secondary-color);
 }
